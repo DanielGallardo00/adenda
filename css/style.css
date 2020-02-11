@@ -1,0 +1,168 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+   max-width: 360px;
+   margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+/* flotaciones */
+
+.row::after{
+    clear: both;
+    content: "";
+    height: 0;
+    display: block;
+    }
+
+/* header nav */
+
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+
+}
+
+header .nav-top{
+    background-color:rgb(55, 122, 211);
+}
+
+header nav{
+    background-color:rgb(14, 113, 243, 0.8);
+}
+
+header .hamburguesa{
+    cursor: pointer;
+    float: left;
+    padding: 15px 15px 10px;
+}
+
+header .hamburguesa div{
+    border-top: 1.5px solid white;
+    width: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+header .titulo{
+    float: left;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+header .icono{
+    float: right;
+    padding: 15px 15px 10px;
+}
+
+header .icono i{
+    font-size: 1.5em;
+}
+
+header nav .menu li{
+    padding: 1.250em;
+    border-bottom: 1px solid white;
+}
+
+header nav .menu li:last-child{
+    border: 0px;
+}
+
+header nav .menu li i{
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+
+.buscador{
+background-color:rgb(14, 113, 243, 0.8);
+
+}
+
+label{
+    display: block;
+    width: 100%;
+}
+
+
+.buscador form input{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 10px;
+    background-color: rgb(14, 113, 243, 0.3);
+    border: 1px transparent;
+    border-radius: 5px;
+    float: left;
+
+
+}
+
+.buscador form select{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 10px;
+    background-color: rgb(14, 113, 243, 0.3);
+    border: 1px transparent;
+    border-radius: 5px;
+    float: left;
+    
+    
+    }
+
+/*  */
+main section div {
+    width: 360px;
+    margin: 0 auto;
+    background-color: rgb(14, 113, 243, 0.3);
+    border: 1px solid white;
+    
+}
+
+main section div p {
+    width: 80%;
+    padding: 1em;
+    margin-left: 2%;
+    border-top-width: 0px;
+}
+
+main section button {
+    background-color: rgb(14, 113, 243,0);
+    border: none;
+    margin-left: 300px;
+    color: rgb(196, 44, 175);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.sinTareas {
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+footer div{
+    background-color:rgb(55, 122, 211);
+    height: 20px;
+}

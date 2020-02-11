@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="container-fluid">
+
+        <div class="nav-top container row">
+
+            <div class="hamburguesa">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="titulo">
+                <span>Agenda</span>
+            </div>
+
+            <div class="icono"><i class="fas fa-search"></i></div>
+        </div>
+
+        <div class="buscador container row">
+            <form id="form">
+
+                <select name="" id="buscarPrioridad">
+                    <option value="Diario">Diario</option>
+                    <option value="Semanal">Semanal</option>
+                    <option value="Urgente">Urgente</option>
+                </select>
+
+                <input type="text" id="buscarContenido">
+
+            </form>
+
+        </div>
+
+        <div class="buscador container row">
+            <form id="form">
+                <input type="text" id="inputTarea">
+
+                <select name="" id="inputPrioridad">
+                    <option value="Diario">Diario</option>
+                    <option value="Semanal">Semanal</option>
+                    <option value="Urgente">Urgente</option>
+                </select>
+
+                <input type="button" value="Añadir" id="btnAside">
+
+
+            </form>
+            <p id="mensaje" class="mensaje"></p>
+
+        </div>
+
+        <!-- <nav class="container row">
+            <ul class="menu">
+
+                <li><i class="fas fa-search"></i><span>buscar</span></li>
+                <li><i class="fas fa-filter"></i><span>filtrar</span></li>
+                <li><i class="fas fa-plus"></i><span>añadir</span></li>
+                <li><i class="fas fa-moon"></i><span>modo noche</span></li>
+            </ul>
+        </nav> -->
+    </header>
+
+
+
+    <main>
+        <section id="listaTareas">
+
+
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="container-fluid">
+        <div class="container">
+
+        </div>
+    </footer>
+
+    <script src="js/logica.js"></script>
+    <script src="js/eventos.js"></script>
+
+</body>
+
+</html>
